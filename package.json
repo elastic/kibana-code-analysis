@@ -1,0 +1,16 @@
+{
+  "name": "kibana-code-analysis",
+  "version": "0.0.1",
+  "description": "kibana code analysis tools",
+  "main": "index.js",
+  "scripts": {
+    "find-private": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
+    "test": "echo \"lol!\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "importjs": "^3.0.2",
+    "jscodeshift": "^0.6.4"
+  }
+}
