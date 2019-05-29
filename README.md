@@ -7,4 +7,5 @@ This currently does exactly one thing - it finds `Private` invocations, looks at
 0) clone repo next to your kibana repo
 1) `yarn`
 2) `yarn run find-private`
-3) Look at `output/find-private.json`
+3) Grab a nice beverage, this is going to take a minute or two.
+4) Look at `output/find-private.json`
