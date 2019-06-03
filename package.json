@@ -4,13 +4,38 @@
   "description": "kibana code analysis tools",
   "main": "index.js",
   "scripts": {
+    "find-private-one": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana/src/legacy/core_plugins/timelion/public/vis/index.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
+    "find-private-two": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana/src/legacy/ui/public/vis/vis.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
     "find-private": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
+    "find-private-async": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-async.js ../kibana/src/legacy/core_plugins/timelion/public/timelion_vis_fn.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
+    "lint": "eslint *.js",
     "test": "echo \"lol!\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "importjs": "^3.0.2",
-    "jscodeshift": "^0.6.4"
+    "array-find": "^1.0.0",
+    "debug": "^4.1.1",
+    "enhanced-resolve": "^4.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "find-root": "^1.1.0",
+    "has": "^1.0.3",
+    "import-js": "^3.2.0",
+    "interpret": "^1.2.0",
+    "jscodeshift": "^0.6.4",
+    "lodash": "^4.17.11",
+    "node-libs-browser": "^2.2.0",
+    "resolve": "^1.11.0",
+    "rxjs": "^6.5.2",
+    "semver": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.1"
   }
 }
