@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "find-private-one": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana/src/legacy/core_plugins/timelion/public/vis/index.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
-    "find-private-two": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana/src/legacy/ui/public/vis/vis.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
     "find-private": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
-    "find-private-async": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-async.js ../kibana/src/legacy/core_plugins/timelion/public/timelion_vis_fn.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
+    "find-private-deps": "node privateDeps.js",
     "lint": "eslint *.js",
     "test": "echo \"lol!\" && exit 1"
   },
