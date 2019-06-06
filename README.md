@@ -9,3 +9,7 @@ This currently does exactly one thing - it finds `Private` invocations, looks at
 2) `yarn run find-private`
 3) Grab a nice beverage, this is going to take a minute or two.
 4) Look at `output/find-private.json`
+
+5) `yarn run find-private-deps`
+6) `yarn start`
+7) http://localhost:8000
