@@ -1,0 +1,1488 @@
+{
+  "MultiMetricJobServiceProvider": { "Params": "" },
+  "FixturesStubbedLogstashIndexPatternProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "TestUtilsStubIndexPatternProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "FixturesLogstashFieldsProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "EventsProvider,VislibVisConfigProvider,VisHandlerProvider",
+    "Injector Invocations": ""
+  },
+  "XPackInfoProvider": {
+    "Usages": 25,
+    "Params Count": 3,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 1,
+    "Params": "$window,$injector,Private",
+    "Private Invocations": "XPackInfoSignatureProvider",
+    "Injector Invocations": "$http"
+  },
+  "TelemetryOptInProvider": {
+    "Usages": 3,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 4,
+    "Params": "$injector,chrome",
+    "Private Invocations": "",
+    "Injector Invocations": "Notifier,telemetryOptedIn,$http,$http"
+  },
+  "DocTitleProvider": {
+    "Usages": 10,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "docTitle",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SearchSourceProvider": {
+    "Usages": 6,
+    "Params Count": 3,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Promise,Private,config",
+    "Private Invocations": "SearchRequestProvider,NormalizeSortRequestProvider,FetchSoonProvider,FieldWildcardProvider",
+    "Injector Invocations": ""
+  },
+  "FilterBarQueryFilterProvider": {
+    "Usages": 12,
+    "Params Count": 5,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Promise,indexPatterns,$rootScope,getAppState,globalState",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VisFactoryProvider": {
+    "Usages": 19,
+    "Params Count": 1,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "AngularVisTypeProvider,VislibVisTypeProvider,BaseVisTypeProvider,ReactVisTypeProvider",
+    "Injector Invocations": ""
+  },
+  "VislibSeriesResponseHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "MetricsRequestHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "timezoneProvider",
+    "Injector Invocations": ""
+  },
+  "RegionMapsVisualizationProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "TileMapTooltipFormatter,BaseMapsVisualizationProvider",
+    "Injector Invocations": ""
+  },
+  "TileMapTooltipFormatter": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$compile,$rootScope",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "BaseMapsVisualizationProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "serviceSettings",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VisFiltersProvider": {
+    "Usages": 4,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,getAppState",
+    "Private Invocations": "FilterBarQueryFilterProvider",
+    "Injector Invocations": ""
+  },
+  "TileMapTooltipFormatterProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$compile,$rootScope",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "CoordinateMapsVisualizationProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "BaseMapsVisualizationProvider,TileMapTooltipFormatterProvider",
+    "Injector Invocations": ""
+  },
+  "TimelionRequestHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 4,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Notifier,$http,config",
+    "Private Invocations": "timezoneProvider",
+    "Injector Invocations": ""
+  },
+  "VegaRequestHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 4,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "es,serviceSettings,config,esShardTimeout",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VegaVisualizationProvider": {
+    "Usages": 1,
+    "Params Count": 4,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,vegaConfig,serviceSettings,$rootScope",
+    "Private Invocations": "SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "SavedObjectsClientProvider": {
+    "Usages": 22,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Promise",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "FetchSoonProvider": {
+    "Usages": 3,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "FetchNowProvider",
+    "Injector Invocations": ""
+  },
+  "SearchPollProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "FetchSoonProvider",
+    "Injector Invocations": ""
+  },
+  "KbnUrlProvider": {
+    "Usages": 5,
+    "Params Count": 5,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 2,
+    "Params": "$injector,$location,$rootScope,$parse,Private",
+    "Private Invocations": "AppStateProvider",
+    "Injector Invocations": "$route,$route"
+  },
+  "UrlOverflowServiceProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternsApiClientProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$http",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternProvider": {
+    "Usages": 1,
+    "Params Count": 3,
+    "Provider Invocations Count": 6,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config,Promise",
+    "Private Invocations": "IndexPatternsGetProvider,FieldsFetcherProvider,UtilsMappingSetupProvider,IndexPatternsFlattenHitProvider,IndexPatternsPatternCacheProvider,SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "IndexPatternsPatternCacheProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternsGetProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "FieldsFetcherProvider": {
+    "Usages": 2,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "IndexPatternsApiClientProvider",
+    "Injector Invocations": ""
+  },
+  "IndexPatternsProvider": {
+    "Usages": 6,
+    "Params Count": 2,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "IndexPatternProvider,IndexPatternsPatternCacheProvider,IndexPatternsGetProvider,FieldsFetcherProvider",
+    "Injector Invocations": ""
+  },
+  "KbnTopNavControllerProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$compile",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "NavBarExtensionsRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "EventsProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Promise",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ApplyScopeBindingsProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$parse",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "StateProvider": {
+    "Usages": 3,
+    "Params Count": 6,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,$rootScope,$location,stateManagementConfig,config,kbnUrl",
+    "Private Invocations": "EventsProvider",
+    "Injector Invocations": ""
+  },
+  "AppStateProvider": {
+    "Usages": 3,
+    "Params Count": 4,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 1,
+    "Params": "Private,$rootScope,$location,$injector",
+    "Private Invocations": "StateProvider",
+    "Injector Invocations": "PersistedState"
+  },
+  "GlobalStateProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "StateProvider",
+    "Injector Invocations": ""
+  },
+  "RedirectWhenMissingProvider": {
+    "Usages": 1,
+    "Params Count": 3,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$location,kbnUrl,Promise",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisConfigProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibDataProvider,VislibTypesProvider",
+    "Injector Invocations": ""
+  },
+  "VisHandlerProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 6,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsVisTypesProvider,VislibLibLayoutLayoutProvider,VislibLibChartTitleProvider,VislibLibAlertsProvider,VislibLibAxisProvider,VislibGridProvider",
+    "Injector Invocations": ""
+  },
+  "VisTypesRegistryProvider": {
+    "Usages": 8,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "AngularVisTypeProvider": {
+    "Usages": 1,
+    "Params Count": 3,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,$compile,$rootScope",
+    "Private Invocations": "BaseVisTypeProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisTypeProvider": {
+    "Usages": 1,
+    "Params Count": 4,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private,$rootScope,$timeout,$compile",
+    "Private Invocations": "VislibProvider,VisFiltersProvider,BaseVisTypeProvider",
+    "Injector Invocations": ""
+  },
+  "BaseVisTypeProvider": {
+    "Usages": 4,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VisFiltersProvider",
+    "Injector Invocations": ""
+  },
+  "ReactVisTypeProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "BaseVisTypeProvider",
+    "Injector Invocations": ""
+  },
+  "SavedObjectProvider": {
+    "Usages": 6,
+    "Params Count": 4,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Promise,Private,confirmModalPromise,indexPatterns",
+    "Private Invocations": "SavedObjectsClientProvider,SearchSourceProvider,MappingSetupProvider",
+    "Injector Invocations": ""
+  },
+  "SavedWorkspaceProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "SavedObjectProvider",
+    "Injector Invocations": ""
+  },
+  "SavedWorkspacesProvider": {
+    "Usages": 3,
+    "Params Count": 3,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "kbnUrl,Private,Promise",
+    "Private Invocations": "SavedObjectsClientProvider,SavedWorkspaceProvider",
+    "Injector Invocations": ""
+  },
+  "TimeBucketsCalcAutoIntervalProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ajaxErrorHandlersProvider": {
+    "Usages": 24,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 2,
+    "Params": "$injector",
+    "Private Invocations": "",
+    "Injector Invocations": "kbnUrl,$window"
+  },
+  "PathProvider": {
+    "Usages": 10,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$window",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "XPackInfoSignatureProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$window",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "DebounceProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "debounce",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "RequestHandlersProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ResponseHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VisProvider": {
+    "Usages": 3,
+    "Params Count": 3,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private,indexPatterns,getAppState",
+    "Private Invocations": "VisTypesRegistryProvider,FilterBarQueryFilterProvider,SearchSourceProvider,SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "QueryParameterActionsProvider": {
+    "Usages": 2,
+    "Params Count": 2,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "indexPatterns,Private",
+    "Private Invocations": "FilterBarQueryFilterProvider,FilterManagerProvider",
+    "Injector Invocations": ""
+  },
+  "QueryActionsProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "fetchAnchorProvider,fetchContextProvider,QueryParameterActionsProvider",
+    "Injector Invocations": ""
+  },
+  "DevToolsRegistryProvider": {
+    "Usages": 3,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "DocViewsRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SavedObjectRegistryProvider": {
+    "Usages": 4,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "FeatureCatalogueRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ReactEditorControllerProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "timezoneProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "getUnhashableStatesProvider": {
+    "Usages": 4,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "getAppState,globalState",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SubUrlRouteFilterProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 2,
+    "Params": "$injector",
+    "Private Invocations": "",
+    "Injector Invocations": "$route,$route"
+  },
+  "chromeNavControlsRegistry": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ErrorAllowExplicitIndexProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "KbnUrlProvider",
+    "Injector Invocations": ""
+  },
+  "IsRequestProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "SearchRequestProvider",
+    "Injector Invocations": ""
+  },
+  "SerializeFetchParamsProvider": {
+    "Usages": 1,
+    "Params Count": 4,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Promise,sessionId,config,esShardTimeout",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "FetchNowProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "CallClientProvider,CallResponseHandlersProvider,ContinueIncompleteProvider",
+    "Injector Invocations": ""
+  },
+  "CallClientProvider": {
+    "Usages": 1,
+    "Params Count": 4,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise,es,config",
+    "Private Invocations": "ErrorAllowExplicitIndexProvider,IsRequestProvider,SerializeFetchParamsProvider",
+    "Injector Invocations": ""
+  },
+  "CallResponseHandlersProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Private,Promise",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ContinueIncompleteProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SearchRequestProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Promise",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternCreationConfigRegistry": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternListConfigRegistry": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibErrorHandlerProvider": {
+    "Usages": 2,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "TooltipProvider": {
+    "Usages": 3,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsVisTypesProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 5,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsPieChartProvider,VislibVisualizationsPointSeriesProvider,GaugeChartProvider,GaugeChartProvider,GaugeChartProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutLayoutProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 3,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibLayoutLayoutTypesProvider,VislibLibAxisProvider,VislibLibChartTitleProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibChartTitleProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibErrorHandlerProvider,TooltipProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibAlertsProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibAxisProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 5,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibErrorHandlerProvider,VislibLibAxisTitleProvider,VislibAxisLabelsProvider,VislibAxisScaleProvider,VislibLibAxisConfigProvider",
+    "Injector Invocations": ""
+  },
+  "VislibGridProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibDataProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibComponentsLabelsLabelsProvider,VislibComponentsColorColorProvider",
+    "Injector Invocations": ""
+  },
+  "VislibTypesProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 5,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibTypesPointSeries,VislibPieConfigProvider,vislibGaugeProvider,vislibGaugeProvider,vislibGaugeProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibDispatchProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "HierarchicalTooltipFormatterProvider": {
+    "Usages": 1,
+    "Params Count": 3,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$rootScope,$compile,$sce",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "PointSeriesTooltipFormatter": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$compile,$rootScope",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsChartProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibDispatchProvider,TooltipProvider,HierarchicalTooltipFormatterProvider,PointSeriesTooltipFormatter",
+    "Injector Invocations": ""
+  },
+  "GaugeTypesProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "MeterGaugeProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsPieChartProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsChartProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsPointSeriesProvider": {
+    "Usages": 5,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "GaugeChartProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsChartProvider,GaugeTypesProvider",
+    "Injector Invocations": ""
+  },
+  "VisualizeLoaderProvider": {
+    "Usages": 2,
+    "Params Count": 3,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "savedVisualizations,interpreterConfig,Private",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisProvider",
+    "Injector Invocations": ""
+  },
+  "IntervalHelperProvider": {
+    "Usages": 9,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,config",
+    "Private Invocations": "TimeBucketsCalcAutoIntervalProvider",
+    "Injector Invocations": ""
+  },
+  "routeInitProvider": {
+    "Usages": 30,
+    "Params Count": 5,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,monitoringClusters,globalState,license,kbnUrl",
+    "Private Invocations": "ajaxErrorHandlersProvider",
+    "Injector Invocations": ""
+  },
+  "ActionDefaultsRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SenseTopNavController": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "KbnTopNavControllerProvider",
+    "Injector Invocations": ""
+  },
+  "fetchAnchorProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "indexPatterns,Private",
+    "Private Invocations": "SearchSourceProvider",
+    "Injector Invocations": ""
+  },
+  "fetchContextProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "indexPatterns,Private",
+    "Private Invocations": "SearchSourceProvider",
+    "Injector Invocations": ""
+  },
+  "FilterManagerProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "FilterBarQueryFilterProvider",
+    "Injector Invocations": ""
+  },
+  "SearchEmbeddableFactoryProvider": {
+    "Usages": 1,
+    "Params Count": 3,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$compile,$rootScope,savedSearches",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VisEditorTypesRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VisualizeEmbeddableFactoryProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "savedVisualizations,config",
+    "Private Invocations": "VisTypesRegistryProvider",
+    "Injector Invocations": ""
+  },
+  "panelRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "undefined": {
+    "Usages": 6,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "chromeHeaderNavControlsRegistry": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibComponentsLabelsFlattenSeriesProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibComponentsLabelsDataArrayProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibComponentsLabelsFlattenSeriesProvider",
+    "Injector Invocations": ""
+  },
+  "VislibComponentsLabelsUniqLabelsProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutLayoutTypesProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 5,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibLayoutTypesPieLayoutProvider,GaugeLayoutProvider,GaugeLayoutProvider,GaugeLayoutProvider,VislibLibLayoutTypesColumnLayoutProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutTypesPieLayoutProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibLayoutSplitsPieChartChartSplitProvider,VislibLibLayoutSplitsPieChartChartTitleSplitProvider",
+    "Injector Invocations": ""
+  },
+  "GaugeLayoutProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "GaugeChartSplitProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutTypesColumnLayoutProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibLibLayoutSplitsColumnChartChartSplitProvider,VislibLibLayoutSplitsColumnChartYAxisSplitProvider,VislibLibLayoutSplitsColumnChartXAxisSplitProvider,VislibLibLayoutSplitsColumnChartChartTitleSplitProvider",
+    "Injector Invocations": ""
+  },
+  "VislibTypesPointSeries": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibPieConfigProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "vislibGaugeProvider": {
+    "Usages": 3,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "MeterGaugeProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsColumnChartProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsPointSeriesProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsLineChartProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsPointSeriesProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsAreaChartProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsPointSeriesProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsHeatmapChartProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsPointSeriesProvider",
+    "Injector Invocations": ""
+  },
+  "VisColorMappedColorsProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config,$rootScope",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SearchItemsProvider": {
+    "Usages": 8,
+    "Params Count": 2,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$route,config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternListFactory": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "IndexPatternListConfigRegistry",
+    "Injector Invocations": ""
+  },
+  "IndexPatternCreationFactory": {
+    "Usages": 2,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,$http",
+    "Private Invocations": "IndexPatternCreationConfigRegistry",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsColumnChartChartSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsColumnChartYAxisSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsColumnChartXAxisSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsColumnChartChartTitleSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "GaugeChartSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsPieChartChartSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibLayoutSplitsPieChartChartTitleSplitProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "xpackFeatureProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "XPackInfoProvider",
+    "Injector Invocations": ""
+  },
+  "RegistryFieldFormatEditorsProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "UtilsMappingSetupProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndexPatternsFlattenHitProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "refreshIntervalWatcher": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$timeout",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ArgValueSuggestionsProvider": {
+    "Usages": 1,
+    "Params Count": 2,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private,indexPatterns",
+    "Private Invocations": "SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "VislibComponentsLabelsLabelsProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 2,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibComponentsLabelsDataArrayProvider,VislibComponentsLabelsUniqLabelsProvider",
+    "Injector Invocations": ""
+  },
+  "VislibComponentsColorColorProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VisColorMappedColorsProvider",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsTimeMarkerProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibVisualizationsSeriesTypesProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 4,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "VislibVisualizationsColumnChartProvider,VislibVisualizationsLineChartProvider,VislibVisualizationsAreaChartProvider,VislibVisualizationsHeatmapChartProvider",
+    "Injector Invocations": ""
+  },
+  "VislibLibAxisTitleProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibAxisLabelsProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibAxisScaleProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "VislibLibAxisConfigProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "FieldWildcardProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "IndicesEditSectionsProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "MappingSetupProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "EmbeddableFactoriesRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ContextMenuActionsRegistryProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ShareContextMenuExtensionsRegistryProvider": {
+    "Usages": 3,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "NormalizeSortRequestProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "config",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "CreateRecognizerJobsServiceProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "SavedObjectsClientProvider",
+    "Injector Invocations": ""
+  },
+  "moveToAdvancedJobCreationProvider": {
+    "Usages": 3,
+    "Params Count": 1,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "$location",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "SingleMetricJobServiceProvider": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "ChartDataUtilsProvider": {
+    "Usages": 2,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "IntervalHelperProvider",
+    "Injector Invocations": ""
+  },
+  "": {
+    "Usages": 1,
+    "Params Count": 0,
+    "Provider Invocations Count": 0,
+    "Injector Invocations Count": 0,
+    "Params": "",
+    "Private Invocations": "",
+    "Injector Invocations": ""
+  },
+  "PopulationJobServiceProvider": {
+    "Usages": 1,
+    "Params Count": 1,
+    "Provider Invocations Count": 1,
+    "Injector Invocations Count": 0,
+    "Params": "Private",
+    "Private Invocations": "IntervalHelperProvider",
+    "Injector Invocations": ""
+  }
+}
