@@ -22,6 +22,6 @@ arraySource.subscribe(
   undefined,
   () => {
     console.log('DONE');
-    writeFileSync('./outtput/privateDeps.json', JSON.stringify(heirarchy, undefined, 2), 'utf8');
+    writeFileSync('./output/privateDeps.json', JSON.stringify(heirarchy, undefined, 2), 'utf8');
   }
 );
