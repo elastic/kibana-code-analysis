@@ -1,6 +1,6 @@
 ../kibana/packages
 ../kibana/node_modules
-../kibana/x-pack/node_modules
+../kibana/**/node_modules
 ../kibana/target
 ../kibana/x-pack/test_utils
 ../kibana/src/test_utils/
