@@ -7,6 +7,7 @@
     "find-private-one": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana/src/legacy/core_plugins/timelion/public/vis/index.js --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
     "find-private": "node -max-old-space-size=8192 ./node_modules/.bin/jscodeshift --run-in-band -t find-private.js ../kibana --extensions=ts,tsx,js --ignore-config=.jscodeshiftignore",
     "find-private-deps": "node privateDeps.js",
+    "start": "http-server -p 8000",
     "lint": "eslint *.js",
     "test": "echo \"lol!\" && exit 1"
   },
@@ -35,6 +36,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "http-server": "~0.9.0"
   }
 }
