@@ -6,3 +6,4 @@
 ../kibana/src/test_utils/
 ../kibana/**/__tests__/**
 ../kibana/x-pack/build
+../kibana/optimize
