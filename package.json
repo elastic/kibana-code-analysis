@@ -23,7 +23,7 @@
     "import-js": "^3.2.0",
     "interpret": "^1.2.0",
     "jscodeshift": "^0.6.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "node-libs-browser": "^2.2.0",
     "resolve": "^1.11.0",
     "rxjs": "^6.5.2",
